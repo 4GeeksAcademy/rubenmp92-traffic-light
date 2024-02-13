@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import Lights from "./Lights";
+import LightRed from "./LightRed";
+import LightGreen from "./LightGreen";
+import LightYellow from "./LightYellow";
 
 
 //create your first component
@@ -10,7 +12,9 @@ return (
 		<div>
 			<div className="position-absolute bottom-0 start-50 translate-middle" style={{backgroundColor: "red", width: "1rem", height: "10rem"}}></div>
 			<div className="position-absolute top-50 start-50 translate-middle" style={{backgroundColor: "black", width: "5rem", height: "13rem"}}>
-			<Lights />
+			<LightRed />
+			<LightYellow />
+			<LightGreen />
 			</div>
 
 		</div>
